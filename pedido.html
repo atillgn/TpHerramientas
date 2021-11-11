@@ -331,6 +331,7 @@
                         </div>
                         <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="name">
                             <select name="product" class="form-control">
+                                <option value="Comidas" disabled selected hidden>Comida</option>
                                 <option value="S">Sushi</option>
                                 <option value="R">Ramen</option>
                                 <option value="Y">Yakitori</option>
@@ -343,14 +344,24 @@
                                 <option value="Na">Natto</option>
                                 <option value="G">Gyoza</option>
                             </select>
-                            
-                            
+                        </div>
+                        <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="name">
+                            <select name="product" class="form-control">
+                                <option value="Bebidas" disabled selected hidden>Bebida</option>
+                                <option value="S">Soda Calipis</option>
+                                <option value="C">CC Lemon</option>
+                                <option value="Q">QOO</option>
+                                <option value="R">Ramune</option>
+                            </select>
                         </div>
                         <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="name">
                             <input type="number" name="unidades" placeholder="Unidades" data-form-field="name" class="form-control" value="" id="name-form4-r">
                         </div>
                         <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="name">
-                            <input type="text" name="descripcion" placeholder="Descripcion" data-form-field="name" class="form-control" value="" id="name-form4-r">
+                            <textarea name="descripcion" placeholder="Descripcion" class="form-control" id="name-form4-r"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="name">
+                            <input type="text" name="direccion" placeholder="Direccion" data-form-field="name" class="form-control" value="" id="name-form4-r">
                         </div>
                         <div class="col-12 col-md-auto mbr-section-btn"><button type="submit" class="btn btn-primary display-4">Realizar el Pedido</button></div>
                     </div>
